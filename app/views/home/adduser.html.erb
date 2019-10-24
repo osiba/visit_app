@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <div class="wrapper">
+  <p>Logo</p>
+  </div>
+  <body>
+    <span class="under"> お客様名</span>
+    <p>お名前を入力してください。 </p>
+    <fome class="new_menber" id="new_menber" action="/adduser accept-charset="UTF-8" method="post">
+
+    <p>名前：<%= text_field_tag "family-name" %></p>
+    <p>ふりがな：<%= text_field_tag "family-name" %></p>
+    <input id="button" type="button" name="submit" onclick="location.href='/'" value="back">
+    <input id="button" type="button" name="submit" onclick="location.href='/addcmp'" value="Next">
+    <div class="footer">
+    <p>DenstuSystem.Ltd</p>
+    </div>
+  </body>
+</html>

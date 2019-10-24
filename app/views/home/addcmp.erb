@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <div class="wrapper">
+  <%#  <%= image_tag 'des-icon.gif', :size => '450x55' %>
+  <p>Logo</p>
+  </div>
+  <body>
+    <span class="under"> お客様会社名</span>
+    <p>会社名を入力してください。</p>
+    <p>会社名：<%= text_field_tag "family-name" %></p>
+    <p>ふりがな：<%= text_field_tag "family-name" %></p>
+    <input id="button" type="button" name="submit" onclick="location.href='/adduser'" value="back">
+    <input id="button" type="button" name="submit" onclick="location.href='/addcho'" value="Next">
+    <div class="footer">
+    <p>DenstuSystem.Ltd</p>
+    </div>
+  </body>
+</html>
